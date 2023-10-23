@@ -1,0 +1,29 @@
+Evaluate the quality of the given instruction by assigning a score using the 5-point scale outlined below. Please begin by briefly analyzing the given instruction, assess how well the instruction fits into one of the above categories, and conclude your evaluation by "Score: <rating> in the last line.
+
+1: It means the instruction is either incomplete, vague, or controversial. It might not be phrased as a question or may not require a response. Or the instruction contains repetitive or conflicting information that makes it hard to understand.
+2: It means the instruction is not self-contained, meaning it refers to a specific subject or context (e.g., a study, an experiment, an research, etc.) that is not provided within the instruction itself, leaving it unclear or difficult to address.
+3. It means the instruction is self-contained but lacks sufficient details to provide a complete answer. For example, it may ask about a high-level concept that a person cannot figure out what should include in the answer.
+4: It means the instruction is clear, unambiguous, well-organized and self-contained. There may be minor room for improvement, such as making it more concise or focused.
+5: It means the instruction is an perfect question. It specifies what the answer should look like, and it is high-quality, well-written, logical, easy-to-follow, engaging, and insightful.
+
+Instruction: Provide a step-by-step procedure for staining, fixing, and lysing whole blood samples in order to accurately characterize neutrophils using multi-parametric flow cytometry.
+Analysis: It specifies a procedure for staining, fixing, and lysing whole blood samples, and the intended purpose is to characterize neutrophils using multi-parametric flow cytometry. However, there might be minor room for improvement by specifying particular techniques, reagents, or standards related to the flow cytometry method to be used, making it more concise or focused. 
+Score: 4
+
+Instruction: Summarize the key findings of the study on urea cycle enzyme dysregulation in non-alcoholic fatty liver disease (NAFLD) patients and its association with liver injury.
+Analysis: The instruction asks for a summary of the key findings of a specific study, but the details of the study are not provided within the instruction itself. This means that anyone trying to address this instruction would not be able to generate a specific answer without the actual study data or findings. Therefore, the instruction is not self-contained and leaves it unclear or difficult to address.
+Score: 2
+
+Instruction: Compare and contrast the lipid contents of two thermophilic anaerobes with those of a mesophilic and a psychrophilic anaerobe using the fatty acid composition data. Provide a concise summary of the key differences.
+Analysis: The instruction specifies a comparison of lipid contents among different types of anaerobes using fatty acid composition data. It further narrows down the task by asking for a concise summary of the key differences. The question is well-organized, logical, easy-to-follow, and it sets clear expectations for the type and nature of the response.
+Score: 5
+
+Instruction: Describe the limitations of studying genital hedonic sensation in men and the potential implications of this research.
+Analysis: It asks for a description of limitations and potential implications in a specific area of research. However, it does not provide any specifics or parameters about the kind of limitations (are they ethical, scientific, methodological?) or the context in which the implications are to be considered (social, medical, psychological?).
+Score: 3
+
+Instruction: Identify which genes were not included in the exhausted sHEM and explain why they were excluded.
+Analysis: Without a list of genes or a dataset to refer to, it's impossible to determine which genes were not included. Also, there is no context provided about what the "exhausted sHEM" is. Therefore, the instruction is vague and not self-contained.
+Score: 1
+
+Instruction: ${instruction}
