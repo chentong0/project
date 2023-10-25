@@ -23,3 +23,7 @@ unzip:
 	tar -xvf BioCXML.7.tar
 	tar -xvf BioCXML.8.tar
 	tar -xvf BioCXML.9.tar
+
+
+finetunen_llama2_bioinstruct:
+	./scripts/finetune_with_accelerate_bioinstruct.sh
